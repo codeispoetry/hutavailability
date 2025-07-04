@@ -1,11 +1,11 @@
 <?php
-$date = '2025-07-19';
+$date = '2025-07-25';
 
 $hutInfo = json_decode(file_get_contents('huts.json'), true);
 
-for($i = 0; $i < 1; $i++) {
+for($i = 0; $i <= 1; $i++) {
     getBerths($date);
-    $date = date('Y-m-d', strtotime("+7 days", strtotime($date)));
+    $date = date('Y-m-d', strtotime("+1 days", strtotime($date)));
 }
 
 
@@ -24,7 +24,7 @@ function getRegion($hutName) {
 
 function getBerths($date){
     $weekday = date('l', strtotime($date));
-    echo "Berths available on $weekday $date:\n";
+    echo "Berths on $weekday $date:\n";
 
     $huts = glob('availability/*.json');
     foreach ($huts as $hut) {
@@ -40,8 +40,9 @@ function getBerths($date){
             if(!$available) {
                 continue;
             }
+            $total = preg_replace('/\D/', '', $day->textTotal);
             echo ($available) ? "\033[32m" : "\033[31m";
-                echo basename($hut, '.json') . "(" . getRegion(basename($hut, '.json')) . "): " . $day->textTotal . "\n";
+                echo basename($hut, '.json') . "(" . getRegion(basename($hut, '.json')) . "): " . $total . "\n";
             echo ($available) ? "\033[0m" : "\033[0m";
         }
     }
