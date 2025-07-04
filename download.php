@@ -11,11 +11,16 @@ $huts = [
     'edmund-probst-haus' => '7026230',
 ];
 
+$huts = json_decode(file_get_contents('huts.json'), true);
+
 
 $url = 'https://www.alpenvereinaktiv.com/api/v2/project/alpenverein/contents/hut/%d/availability?key=1';
 
-foreach ($huts as $hut => $id) {
-    $data = file_get_contents(sprintf($url, $id));
+foreach ($huts as $hut) {
+    $hut = (object) $hut; // Convert associative array to object for consistency
+
+
+    $data = file_get_contents(sprintf($url, $hut->id));
 
     $json = json_decode($data, false);
     if (json_last_error() !== JSON_ERROR_NONE) {
@@ -23,10 +28,10 @@ foreach ($huts as $hut => $id) {
         continue;
     }
     if (!isset($json->answer) || !isset($json->answer->contents)) {
-        echo "Missing data for $hut\n";
+        echo "Missing data for $hut->name\n";
         continue;
     }
-    echo count($json->answer->contents) . " entries for $hut\n";
+    echo count($json->answer->contents) . " entries for $hut->name ($hut->region)\n";
 
-    file_put_contents(sprintf('availability/%s.json', $hut), $data);
+    file_put_contents(sprintf('availability/%s.json', $hut->name), $data);
 }

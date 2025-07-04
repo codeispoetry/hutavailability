@@ -1,0 +1,422 @@
+[
+    {
+        "id": "7026217",
+        "name": "Tölzer Hütte",
+        "region": "Karwendel"
+    },
+    {
+        "id": "7026210",
+        "name": "Pforzheimer Hütte",
+        "region": "Stubaier Alpen"
+    },
+    {
+        "id": "7026208",
+        "name": "Olpererhütte",
+        "region": "Zillertaler Alpen"
+    },
+    {
+        "id": "6938587",
+        "name": "Hallerangerhaus",
+        "region": "Karwendel"
+    },
+    {
+        "id": "6938547",
+        "name": "Dresdner Hütte",
+        "region": "Stubaier Alpen"
+    },
+    {
+        "id": "6938650",
+        "name": "Neue Magdeburger Hütte",
+        "region": "Karwendel"
+    },
+    {
+        "id": "6938579",
+        "name": "Geraer Hütte",
+        "region": "Zillertaler Alpen"
+    },
+    {
+        "id": "6938336",
+        "name": "Pfeis-Hütte",
+        "region": "Karwendel"
+    },
+    {
+        "id": "7025960",
+        "name": "Glungezer-Hütte",
+        "region": "Tuxer Alpen"
+    },
+    {
+        "id": "6938716",
+        "name": "Vernagthütte",
+        "region": "Ötztaler Alpen"
+    },
+    {
+        "id": "6938691",
+        "name": "Saarbrücker Hütte",
+        "region": "Silvretta"
+    },
+    {
+        "id": "7026206",
+        "name": "Kölner Haus",
+        "region": "Samnaun-Gruppe"
+    },
+    {
+        "id": "6938702",
+        "name": "Straubinger Haus",
+        "region": "Chiemgauer Alpen"
+    },
+    {
+        "id": "6938683",
+        "name": "Ravensburger Hütte",
+        "region": "Lechquellen-Gebirge"
+    },
+    {
+        "id": "6938615",
+        "name": "Jamtalhütte",
+        "region": "Silvretta"
+    },
+    {
+        "id": "6938589",
+        "name": "Hanauer Hütte",
+        "region": "Lechtaler Alpen"
+    },
+    {
+        "id": "6938545",
+        "name": "Dortmunder Hütte",
+        "region": "Stubaier Alpen"
+    },
+    {
+        "id": "6938447",
+        "name": "Tilisuna-Hütte",
+        "region": "Rätikon"
+    },
+    {
+        "id": "6938082",
+        "name": "Franz-Senn-Hütte",
+        "region": "Stubaier Alpen"
+    },
+    {
+        "id": "6938038",
+        "name": "Carl-von-Stahl-Haus",
+        "region": "Berchtesgadener Alpen"
+    },
+    {
+        "id": "13538863",
+        "name": "Unterberg-Schutzhaus",
+        "region": "Muggendorf"
+    },
+    {
+        "id": "13538845",
+        "name": "Wilhelm-Eichert-Hütte",
+        "region": "Höflein an der Hohen Wand"
+    },
+    {
+        "id": "6938696",
+        "name": "Schwarzwasserhütte",
+        "region": "Allgäuer Alpen"
+    },
+    {
+        "id": "6938577",
+        "name": "Gaudeamushütte",
+        "region": "Kaiser-Gebirge"
+    },
+    {
+        "id": "6938280",
+        "name": "Lizumer Hütte",
+        "region": "Tuxer Alpen"
+    },
+    {
+        "id": "6938559",
+        "name": "Essener und Rostocker Hütte",
+        "region": "Venediger-Gruppe"
+    },
+    {
+        "id": "6938541",
+        "name": "Coburger Hütte",
+        "region": "Wetterstein-Gebirge und Mieminger Kette"
+    },
+    {
+        "id": "6938419",
+        "name": "Solstein-Haus",
+        "region": "Karwendel"
+    },
+    {
+        "id": "6938161",
+        "name": "Hess-Hütte",
+        "region": "Ennstaler Alpen"
+    },
+    {
+        "id": "7242116",
+        "name": "Konstanzer Hütte",
+        "region": "Verwall-Gruppe"
+    },
+    {
+        "id": "7026198",
+        "name": "Neue Heilbronner Hütte",
+        "region": "Verwall-Gruppe"
+    },
+    {
+        "id": "6938708",
+        "name": "Sudetendeutsche Hütte",
+        "region": "Granatspitz-Gruppe"
+    },
+    {
+        "id": "6938676",
+        "name": "Potsdamer Hütte",
+        "region": "Stubaier Alpen"
+    },
+    {
+        "id": "6938507",
+        "name": "Amberger Hütte",
+        "region": "Stubaier Alpen"
+    },
+    {
+        "id": "40116331",
+        "name": "Naturfreundehaus Knofeleben",
+        "region": "Rax-Schneeberg-Gruppe"
+    },
+    {
+        "id": "13538846",
+        "name": "Schöpfl-Schutzhaus",
+        "region": "Wienerwald"
+    },
+    {
+        "id": "13538827",
+        "name": "Hainfelder Hütte",
+        "region": "Gutensteiner Alpen"
+    },
+    {
+        "id": "13538825",
+        "name": "Hochmölbinghütte",
+        "region": "Totes Gebirge"
+    },
+    {
+        "id": "7242163",
+        "name": "Biberacher Hütte",
+        "region": "Lechquellen-Gebirge"
+    },
+    {
+        "id": "6938660",
+        "name": "Nürnberger Hütte",
+        "region": "Stubaier Alpen"
+    },
+    {
+        "id": "6938434",
+        "name": "Stripsenjoch-Haus",
+        "region": "Kaiser-Gebirge"
+    },
+    {
+        "id": "6938211",
+        "name": "Innsbrucker Hütte",
+        "region": "Stubaier Alpen"
+    },
+    {
+        "id": "6938040",
+        "name": "Sölden-Hütte",
+        "region": "Tennen-Gebirge"
+    },
+    {
+        "id": "40116537",
+        "name": "Wiesberghaus",
+        "region": "Dachstein-Gebirge"
+    },
+    {
+        "id": "40116381",
+        "name": "Tauplitzhaus",
+        "region": "Totes Gebirge"
+    },
+    {
+        "id": "40116253",
+        "name": "Buchsteinhaus",
+        "region": "Ennstaler Alpen"
+    },
+    {
+        "id": "13538866",
+        "name": "Helmut-Erd-Schutzhaus",
+        "region": "Lavanttaler Alpen"
+    },
+    {
+        "id": "13538824",
+        "name": "Kaiserkogelhütte",
+        "region": "Türnitzer Alpen"
+    },
+    {
+        "id": "7025952",
+        "name": "Braunberg-Hütte",
+        "region": "Lasberg"
+    },
+    {
+        "id": "6938570",
+        "name": "Friesenberghaus",
+        "region": "Zillertaler Alpen"
+    },
+    {
+        "id": "6938564",
+        "name": "Freiburger Hütte",
+        "region": "Lechquellen-Gebirge"
+    },
+    {
+        "id": "6938429",
+        "name": "Steinsee-Hütte",
+        "region": "Lechtaler Alpen"
+    },
+    {
+        "id": "6938301",
+        "name": "Mödlinger Hütte",
+        "region": "Ennstaler Alpen"
+    },
+    {
+        "id": "6938254",
+        "name": "Kürsinger-Hütte",
+        "region": "Venediger-Gruppe"
+    },
+    {
+        "id": "40116359",
+        "name": "Rohrauerhaus",
+        "region": "Ennstaler Alpen"
+    },
+    {
+        "id": "13538860",
+        "name": "Schiestlhaus",
+        "region": "Hochschwabgruppe"
+    },
+    {
+        "id": "7025958",
+        "name": "Franz-Fischer-Hütte",
+        "region": "Radstädter Tauern"
+    },
+    {
+        "id": "6938809",
+        "name": "Brünnsteinhaus",
+        "region": "Bayerische Voralpen"
+    },
+    {
+        "id": "6938681",
+        "name": "Rastkogelhütte",
+        "region": "Tuxer Alpen"
+    },
+    {
+        "id": "6938646",
+        "name": "Gufferthütte",
+        "region": "Bayerische Voralpen"
+    },
+    {
+        "id": "6938623",
+        "name": "Karl-von-Edel-Hütte",
+        "region": "Zillertaler Alpen"
+    },
+    {
+        "id": "6938621",
+        "name": "Kaltenberghütte",
+        "region": "Verwall-Gruppe"
+    },
+    {
+        "id": "13538861",
+        "name": "Statzerhaus",
+        "region": "Salzburger Schieferalpen"
+    },
+    {
+        "id": "7026242",
+        "name": "Brixner Hütte",
+        "region": "Zillertaler Alpen"
+    },
+    {
+        "id": "6938802",
+        "name": "Albert-Link-Hütte",
+        "region": "Bayerische Voralpen"
+    },
+    {
+        "id": "6938710",
+        "name": "Sulzenauhütte",
+        "region": "Stubaier Alpen"
+    },
+    {
+        "id": "6938594",
+        "name": "Heidelberger Hütte",
+        "region": "Silvretta"
+    },
+    {
+        "id": "6938821",
+        "name": "Tutzinger Hütte",
+        "region": "Bayerische Voralpen"
+    },
+    {
+        "id": "6938129",
+        "name": "Grünburger Hütte",
+        "region": "Oberösterreichische Voralpen"
+    },
+    {
+        "id": "13538834",
+        "name": "Fischerhütte",
+        "region": "Rax-Schneeberg-Gruppe"
+    },
+    {
+        "id": "6938611",
+        "name": "Hohenzollernhaus",
+        "region": "Ötztaler Alpen"
+    },
+    {
+        "id": "6938568",
+        "name": "Friedrichshafener Hütte",
+        "region": "Verwall-Gruppe"
+    },
+    {
+        "id": "6938334",
+        "name": "Peter-Wiechenthaler-Hütte",
+        "region": "Berchtesgadener Alpen"
+    },
+    {
+        "id": "6938231",
+        "name": "Karl-Lechner-Haus",
+        "region": "Randgebirge östlich der Mur"
+    },
+    {
+        "id": "40116278",
+        "name": "Göllerhütte",
+        "region": "Mürzsteger Alpen"
+    },
+    {
+        "id": "13538856",
+        "name": "Mugelschutzhaus",
+        "region": "Lavanttaler Alpen"
+    },
+    {
+        "id": "13538838",
+        "name": "Hochkar-Schutzhaus",
+        "region": "Ybbstaler Alpen"
+    },
+    {
+        "id": "7025976",
+        "name": "Simony-Hütte",
+        "region": "Dachstein-Gebirge"
+    },
+    {
+        "id": "6938286",
+        "name": "Loser-Hütte",
+        "region": "Totes Gebirge"
+    },
+    {
+        "id": "6938237",
+        "name": "Kellerjoch-Hütte",
+        "region": "Tuxer Alpen"
+    },
+    {
+        "id": "40116534",
+        "name": "Waxriegelhaus",
+        "region": "Rax-Schneeberg-Gruppe"
+    },
+    {
+        "id": "40116369",
+        "name": "Naturfreunde Schutzhaus Neubau",
+        "region": "Alpen"
+    },
+    {
+        "id": "40116284",
+        "name": "Hans Berger Haus",
+        "region": "Kaiser-Gebirge"
+    },
+    {
+        "id": "13538864",
+        "name": "Vindobonahaus",
+        "region": "Radstädter Tauern"
+    }
+]
