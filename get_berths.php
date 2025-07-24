@@ -1,13 +1,17 @@
 <?php
-$date = '2025-07-25';
+$date = '2025-08-01';
 
 $hutInfo = json_decode(file_get_contents('huts.json'), true);
+$places = [];
 
 for($i = 0; $i <= 1; $i++) {
     getBerths($date);
     $date = date('Y-m-d', strtotime("+1 days", strtotime($date)));
 }
 
+$duplicates = array_unique(array_diff_assoc($places, array_unique($places)));
+echo "An beiden Tagen verfügbare Hütten:\n";
+print_r($duplicates);
 
 function getRegion($hutName) {
     global $hutInfo;
@@ -23,6 +27,7 @@ function getRegion($hutName) {
 
 
 function getBerths($date){
+    global $places;
     $weekday = date('l', strtotime($date));
     echo "Berths on $weekday $date:\n";
 
@@ -44,6 +49,8 @@ function getBerths($date){
             echo ($available) ? "\033[32m" : "\033[31m";
                 echo basename($hut, '.json') . "(" . getRegion(basename($hut, '.json')) . "): " . $total . "\n";
             echo ($available) ? "\033[0m" : "\033[0m";
+
+            $places[] = basename($hut, '.json') . "(" . getRegion(basename($hut, '.json')) . ")";
         }
     }
 
